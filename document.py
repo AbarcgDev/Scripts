@@ -84,12 +84,14 @@ def write_main(main: Path, document_dir: Path, name: str):
 
 \\input{{preamble.tex}}
 
+
 \\title{{{name}}}
 \\author{{Abarca Godoy Alvaro}}
 \\def\\grupo{{{args.grupo}}}
 \\def\\asignatura{{{args.asignatura}}}
 \\def\\docente{{{args.docente}}}
 \\def\\fechaEntrega{{{args.fechaEntrega}}}
+
 
 \\begin{{document}}
     \\input{{portada/portada.tex}}
